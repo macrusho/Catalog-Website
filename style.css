@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: #262a33;
 }
 
 .main-header {
@@ -13,23 +14,42 @@ body {
   text-align: center;
   margin: 0;
   font-size: 8em;
-  font-family: "Helvetica";
+  font-family: "Verdana";
   font-weight: normal;
-  color: white;
+  color: #43ffaf;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#search-input {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
 }
 
 #card-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 20px;
 }
 
 .card {
   width: 300px;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 5px;
+  background-color: #1f232c;
 }
 
 .card-content {
@@ -41,6 +61,13 @@ body {
 .card-content h2 {
   margin-top: 0;
   font-size: 20px;
+  text-align: center;
+  color: #e5f7ef;
+}
+
+.card-content p {
+  text-align: center;
+  color: #526777;
 }
 
 .card img {
@@ -67,4 +94,11 @@ button {
   font-size: 22px;
   cursor: pointer;
   margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
 }
