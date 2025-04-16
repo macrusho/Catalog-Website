@@ -269,584 +269,986 @@ const pokedex = [
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/289.png'
 },
 {
-  name: 'Nincada',
+  name: 'Abra',
   dex: 39,
+  type: ['Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png'
+},
+{
+  name: 'Kadabra',
+  dex: 40,
+  type: ['Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png'
+},
+{
+  name: 'Alakazam',
+  dex: 41,
+  type: ['Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png'
+},
+{
+  name: 'Nincada',
+  dex: 42,
   type: ['Bug', 'Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/290.png'
 },
 {
   name: 'Ninjask',
-  dex: 40,
+  dex: 43,
   type: ['Bug', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/291.png'
 },
 {
   name: 'Shedinja',
-  dex: 41,
+  dex: 44,
   type: ['Bug', 'Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/292.png'
 },
 {
   name: 'Whismur',
-  dex: 42,
+  dex: 45,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/293.png'
 },
 {
   name: 'Loudred',
-  dex: 43,
+  dex: 46,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/294.png'
 },
 {
   name: 'Exploud',
-  dex: 44,
+  dex: 47,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/295.png'
 },
 {
   name: 'Makuhita',
-  dex: 45,
+  dex: 48,
   type: ['Fighting'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/296.png'
 },
 {
   name: 'Hariyama',
-  dex: 46,
+  dex: 49,
   type: ['Fighting'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/297.png'
 },
 {
+  name: 'Goldeen',
+  dex: 50,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/118.png'
+},
+{
+  name: 'Seaking',
+  dex: 51,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/119.png'
+},
+{
+  name: 'Magikarp',
+  dex: 52,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/129.png'
+},
+{
+  name: 'Gyarados',
+  dex: 53,
+  type: ['Water', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png'
+},
+{
   name: 'Azurill',
-  dex: 47,
+  dex: 54,
   type: ['Normal', 'Fairy'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/298.png'
 },
 {
+  name: 'Marill',
+  dex: 55,
+  type: ['Water', 'Fairy'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/183.png'
+},
+{
+  name: 'Azumarill',
+  dex: 56,
+  type: ['Water', 'Fairy'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/184.png'
+},
+{
+  name: 'Geodude',
+  dex: 57,
+  type: ['Rock', 'Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png'
+},
+{
+  name: 'Graveler',
+  dex: 58,
+  type: ['Rock', 'Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png'
+},
+{
+  name: 'Golem',
+  dex: 59,
+  type: ['Rock', 'Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png'
+},
+{
   name: 'Nosepass',
-  dex: 48,
+  dex: 60,
   type: ['Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/299.png'
 },
 {
   name: 'Skitty',
-  dex: 49,
+  dex: 61,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/300.png'
 },
 {
   name: 'Delcatty',
-  dex: 50,
+  dex: 62,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/301.png'
 },
 {
+  name: 'Zubat',
+  dex: 63,
+  type: ['Poison', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png'
+},
+{
+  name: 'Golbat',
+  dex: 64,
+  type: ['Poison', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png'
+},
+{
+  name: 'Crobat',
+  dex: 65,
+  type: ['Poison', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/169.png'
+},
+{
+  name: 'Tentacool',
+  dex: 66,
+  type: ['Water', 'Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png'
+},
+{
+  name: 'Tentacruel',
+  dex: 67,
+  type: ['Water', 'Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png'
+},
+{
   name: 'Sableye',
-  dex: 51,
+  dex: 68,
   type: ['Dark', 'Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/302.png'
 },
 {
   name: 'Mawile',
-  dex: 52,
+  dex: 69,
   type: ['Steel', 'Fairy'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/303.png'
 },
 {
   name: 'Aron',
-  dex: 53,
+  dex: 70,
   type: ['Steel', 'Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/304.png'
 },
 {
   name: 'Lairon',
-  dex: 54,
+  dex: 71,
   type: ['Steel', 'Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/305.png'
 },
 {
   name: 'Aggron',
-  dex: 55,
+  dex: 72,
   type: ['Steel', 'Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/306.png'
 },
 {
+  name: 'Machop',
+  dex: 73,
+  type: ['Fighting'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png'
+},
+{
+  name: 'Machoke',
+  dex: 74,
+  type: ['Fighting'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png'
+},
+{
+  name: 'Machamp',
+  dex: 75,
+  type: ['Fighting'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png'
+},
+{
   name: 'Meditite',
-  dex: 56,
+  dex: 76,
   type: ['Fighting', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/307.png'
 },
 {
   name: 'Medicham',
-  dex: 57,
+  dex: 77,
   type: ['Fighting', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/308.png'
 },
 {
   name: 'Electrike',
-  dex: 58,
+  dex: 78,
   type: ['Electric'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/309.png'
 },
 {
   name: 'Manectric',
-  dex: 59,
+  dex: 79,
   type: ['Electric'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/310.png'
 },
 {
   name: 'Plusle',
-  dex: 60,
+  dex: 80,
   type: ['Electric'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/311.png'
 },
 {
   name: 'Minun',
-  dex: 61,
+  dex: 81,
   type: ['Electric'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/312.png'
 },
 {
+  name: 'Magnemite',
+  dex: 82,
+  type: ['Electric', 'Steel'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png'
+},
+{
+  name: 'Magneton',
+  dex: 83,
+  type: ['Electric', 'Steel'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png'
+},
+{
+  name: 'Voltorb',
+  dex: 84,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png'
+},
+{
+  name: 'Electrode',
+  dex: 85,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/101.png'
+},
+{
   name: 'Volbeat',
-  dex: 62,
+  dex: 86,
   type: ['Bug'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/313.png'
 },
 {
   name: 'Illumise',
-  dex: 63,
+  dex: 87,
   type: ['Bug'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/314.png'
 },
 {
+  name: 'Oddish',
+  dex: 88,
+  type: ['Grass', 'Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png'
+},
+{
+  name: 'Vileplume',
+  dex: 89,
+  type: ['Grass', 'Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png'
+},
+{
+  name: 'Vileplume',
+  dex: 90,
+  type: ['Grass', 'Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png'
+},
+{
+  name: 'Bellossom',
+  dex: 91,
+  type: ['Grass'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/182.png'
+},
+{
+  name: 'Doduo',
+  dex: 92,
+  type: ['Normal', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png'
+},
+{
+  name: 'Dodrio',
+  dex: 93,
+  type: ['Normal', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png'
+},
+{
   name: 'Roselia',
-  dex: 64,
+  dex: 94,
   type: ['Grass', 'Poison'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/315.png'
 },
 {
   name: 'Gulpin',
-  dex: 65,
+  dex: 95,
   type: ['Poison'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/316.png'
 },
 {
   name: 'Swalot',
-  dex: 66,
+  dex: 96,
   type: ['Poison'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/317.png'
 },
 {
   name: 'Carvanha',
-  dex: 67,
+  dex: 97,
   type: ['Water', 'Dark'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/318.png'
 },
 {
   name: 'Sharpedo',
-  dex: 68,
+  dex: 98,
   type: ['Water', 'Dark'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/319.png'
 },
 {
   name: 'Wailmer',
-  dex: 69,
+  dex: 99,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/320.png'
 },
 {
   name: 'Wailord',
-  dex: 70,
+  dex: 100,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/321.png'
 },
 {
   name: 'Numel',
-  dex: 71,
+  dex: 101,
   type: ['Fire', 'Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/322.png'
 },
 {
   name: 'Camerupt',
-  dex: 72,
+  dex: 102,
   type: ['Fire', 'Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/323.png'
 },
 {
+  name: 'Slugma',
+  dex: 103,
+  type: ['Fire'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/218.png'
+},
+{
+  name: 'Magcargo',
+  dex: 104,
+  type: ['Fire', 'Rock'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/219.png'
+},
+{
   name: 'Torkoal',
-  dex: 73,
+  dex: 105,
   type: ['Fire'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/324.png'
 },
 {
+  name: 'Grimer',
+  dex: 106,
+  type: ['Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png'
+},
+{
+  name: 'Muk',
+  dex: 107,
+  type: ['Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png'
+},
+{
+  name: 'Koffing',
+  dex: 108,
+  type: ['Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png'
+},
+{
+  name: 'Weezing',
+  dex: 109,
+  type: ['Poison'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/110.png'
+},
+{
   name: 'Spoink',
-  dex: 74,
+  dex: 110,
   type: ['Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/325.png'
 },
 {
   name: 'Grumpig',
-  dex: 75,
+  dex: 111,
   type: ['Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/326.png'
 },
 {
+  name: 'Sandshrew',
+  dex: 112,
+  type: ['Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png'
+},
+{
+  name: 'Sandslash',
+  dex: 113,
+  type: ['Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png'
+},
+{
   name: 'Spinda',
-  dex: 76,
+  dex: 114,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/327.png'
 },
 {
+  name: 'Skarmory',
+  dex: 115,
+  type: ['Steel', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/227.png'
+},
+{
   name: 'Trapinch',
-  dex: 77,
+  dex: 116,
   type: ['Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/328.png'
 },
 {
   name: 'Vibrava',
-  dex: 78,
+  dex: 117,
   type: ['Ground', 'Dragon'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/329.png'
 },
 {
   name: 'Flygon',
-  dex: 79,
+  dex: 118,
   type: ['Ground', 'Dragon'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/330.png'
 },
 {
   name: 'Cacnea',
-  dex: 80,
+  dex: 119,
   type: ['Grass'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/331.png'
 },
 {
   name: 'Cacturne',
-  dex: 81,
+  dex: 120,
   type: ['Grass', 'Dark'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/332.png'
 },
 {
   name: 'Swablu',
-  dex: 82,
+  dex: 121,
   type: ['Normal', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/333.png'
 },
 {
   name: 'Altaria',
-  dex: 83,
+  dex: 122,
   type: ['Dragon', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/334.png'
 },
 {
   name: 'Zangoose',
-  dex: 84,
+  dex: 123,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/335.png'
 },
 {
   name: 'Seviper',
-  dex: 85,
+  dex: 124,
   type: ['Poison'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/336.png'
 },
 {
   name: 'Lunatone',
-  dex: 86,
+  dex: 125,
   type: ['Rock', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/337.png'
 },
 {
   name: 'Solrock',
-  dex: 87,
+  dex: 126,
   type: ['Rock', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/338.png'
 },
 {
   name: 'Barboach',
-  dex: 88,
+  dex: 127,
   type: ['Water', 'Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/339.png'
 },
 {
   name: 'Whiscash',
-  dex: 89,
+  dex: 128,
   type: ['Water', 'Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/340.png'
 },
 {
   name: 'Corphish',
-  dex: 90,
+  dex: 129,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/341.png'
 },
 {
   name: 'Crawdaunt',
-  dex: 91,
+  dex: 130,
   type: ['Water', 'Dark'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/342.png'
 },
 {
   name: 'Baltoy',
-  dex: 92,
+  dex: 131,
   type: ['Ground', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/343.png'
 },
 {
   name: 'Claydol',
-  dex: 93,
+  dex: 132,
   type: ['Ground', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/344.png'
 },
 {
   name: 'Lileep',
-  dex: 94,
+  dex: 133,
   type: ['Rock', 'Grass'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/345.png'
 },
 {
   name: 'Cradily',
-  dex: 95,
+  dex: 134,
   type: ['Rock', 'Grass'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/346.png'
 },
 {
   name: 'Anorith',
-  dex: 96,
+  dex: 135,
   type: ['Rock', 'Bug'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/347.png'
 },
 {
   name: 'Armaldo',
-  dex: 97,
+  dex: 136,
   type: ['Rock', 'Bug'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/348.png'
 },
 {
+  name: 'Igglybuff',
+  dex: 137,
+  type: ['Normal', 'Fairy'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/174.png'
+},
+{
+  name: 'Jigglypuff',
+  dex: 138,
+  type: ['Normal', 'Fairy'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png'
+},
+{
+  name: 'Wigglytuff',
+  dex: 139,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png'
+},
+{
   name: 'Feebas',
-  dex: 98,
+  dex: 140,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/349.png'
 },
 {
   name: 'Milotic',
-  dex: 99,
+  dex: 141,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/350.png'
 },
 {
   name: 'Castform',
-  dex: 100,
+  dex: 142,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/351.png'
 },
 {
+  name: 'Staryu',
+  dex: 143,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png'
+},
+{
+  name: 'Starmie',
+  dex: 144,
+  type: ['Water', 'Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/121.png'
+},
+{
   name: 'Kecleon',
-  dex: 101,
+  dex: 145,
   type: ['Normal'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/352.png'
 },
 {
   name: 'Shuppet',
-  dex: 102,
+  dex: 146,
   type: ['Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/353.png'
 },
 {
   name: 'Banette',
-  dex: 103,
+  dex: 147,
   type: ['Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/354.png'
 },
 {
   name: 'Duskull',
-  dex: 104,
+  dex: 148,
   type: ['Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/355.png'
 },
 {
   name: 'Dusclops',
-  dex: 105,
+  dex: 149,
   type: ['Ghost'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png'
 },
 {
   name: 'Tropius',
-  dex: 106,
+  dex: 150,
   type: ['Grass', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/357.png'
 },
 {
   name: 'Chimecho',
-  dex: 107,
+  dex: 151,
   type: ['Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/358.png'
 },
 {
   name: 'Absol',
-  dex: 108,
+  dex: 152,
   type: ['Dark'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png'
 },
 {
+  name: 'Vulpix',
+  dex: 153,
+  type: ['Fire'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png'
+},
+{
+  name: 'Ninetales',
+  dex: 154,
+  type: ['Fire'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png'
+},
+{
+  name: 'Pichu',
+  dex: 155,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png'
+},
+{
+  name: 'Pikachu',
+  dex: 156,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png'
+},
+{
+  name: 'Raichu',
+  dex: 157,
+  type: ['Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png'
+},
+{
+  name: 'Psyduck',
+  dex: 158,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png'
+},
+{
+  name: 'Golduck',
+  dex: 159,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png'
+},
+{
   name: 'Wynaut',
-  dex: 109,
+  dex: 160,
   type: ['Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/360.png'
 },
 {
+  name: 'Wobbuffet',
+  dex: 161,
+  type: ['Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/202.png'
+},
+{
+  name: 'Natu',
+  dex: 162,
+  type: ['Psychic', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/177.png'
+},
+{
+  name: 'Xatu',
+  dex: 163,
+  type: ['Psychic', 'Flying'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/178.png'
+},
+{
+  name: 'Girafarig',
+  dex: 164,
+  type: ['Normal', 'Psychic'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/203.png'
+},
+{
+  name: 'Phanpy',
+  dex: 165,
+  type: ['Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/231.png'
+},
+{
+  name: 'Donphan',
+  dex: 166,
+  type: ['Ground'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/232.png'
+},
+{
+  name: 'Pinsir',
+  dex: 167,
+  type: ['Bug'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png'
+},
+{
+  name: 'Heracross',
+  dex: 168,
+  type: ['Bug', 'Fighting'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/214.png'
+},
+{
+  name: 'Rhyhorn',
+  dex: 169,
+  type: ['Ground', 'Rock'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png'
+},
+{
+  name: 'Rhydon',
+  dex: 170,
+  type: ['Ground', 'Rock'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/112.png'
+},
+{
   name: 'Snorunt',
-  dex: 110,
+  dex: 171,
   type: ['Ice'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/361.png'
 },
 {
   name: 'Glalie',
-  dex: 111,
+  dex: 172,
   type: ['Ice'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/362.png'
 },
 {
   name: 'Spheal',
-  dex: 112,
+  dex: 173,
   type: ['Ice', 'Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/363.png'
 },
 {
   name: 'Sealeo',
-  dex: 113,
+  dex: 174,
   type: ['Ice', 'Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/364.png'
 },
 {
   name: 'Walrein',
-  dex: 114,
+  dex: 175,
   type: ['Ice', 'Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/365.png'
 },
 {
   name: 'Clamperl',
-  dex: 115,
+  dex: 176,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/366.png'
 },
 {
   name: 'Huntail',
-  dex: 116,
+  dex: 177,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/367.png'
 },
 {
   name: 'Gorebyss',
-  dex: 117,
+  dex: 178,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/368.png'
 },
 {
   name: 'Relicanth',
-  dex: 118,
+  dex: 179,
   type: ['Water', 'Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/369.png'
 },
 {
+  name: 'Corsola',
+  dex: 180,
+  type: ['Water', 'Rock'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/222.png'
+},
+{
+  name: 'Chinchou',
+  dex: 181,
+  type: ['Water', 'Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/170.png'
+},
+{
+  name: 'Lanturn',
+  dex: 182,
+  type: ['Water', 'Electric'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/171.png'
+},
+{
   name: 'Luvdisc',
-  dex: 119,
+  dex: 183,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/370.png'
 },
 {
+  name: 'Horsea',
+  dex: 184,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/116.png'
+},
+{
+  name: 'Seadra',
+  dex: 185,
+  type: ['Water'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/117.png'
+},
+{
+  name: 'Kingdra',
+  dex: 186,
+  type: ['Water', 'Dragon'],
+  image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/230.png'
+},
+{
   name: 'Bagon',
-  dex: 120,
+  dex: 187,
   type: ['Dragon'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/371.png'
 },
 {
   name: 'Shelgon',
-  dex: 121,
+  dex: 188,
   type: ['Dragon'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/372.png'
 },
 {
   name: 'Salamence',
-  dex: 122,
+  dex: 189,
   type: ['Dragon', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png'
 },
 {
   name: 'Beldum',
-  dex: 123,
+  dex: 190,
   type: ['Steel', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/374.png'
 },
 {
   name: 'Metang',
-  dex: 124,
+  dex: 191,
   type: ['Steel', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/375.png'
 },
 {
   name: 'Metagross',
-  dex: 125,
+  dex: 192,
   type: ['Steel', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/376.png'
 },
 {
   name: 'Regirock',
-  dex: 126,
+  dex: 193,
   type: ['Rock'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/377.png'
 },
 {
   name: 'Regice',
-  dex: 127,
+  dex: 194,
   type: ['Ice'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/378.png'
 },
 {
   name: 'Registeel',
-  dex: 128,
+  dex: 195,
   type: ['Steel'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/379.png'
 },
 {
   name: 'Latias',
-  dex: 129,
+  dex: 196,
   type: ['Dragon', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/380.png'
 },
 {
   name: 'Latios',
-  dex: 130,
+  dex: 197,
   type: ['Dragon', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/381.png'
 },
 {
   name: 'Kyogre',
-  dex: 131,
+  dex: 198,
   type: ['Water'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/382.png'
 },
 {
   name: 'Groudon',
-  dex: 132,
+  dex: 199,
   type: ['Ground'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/383.png'
 },
 {
   name: 'Rayquaza',
-  dex: 133,
+  dex: 200,
   type: ['Dragon', 'Flying'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png'
 },
 {
   name: 'Jirachi',
-  dex: 134,
+  dex: 201,
   type: ['Steel', 'Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/385.png'
 },
 {
   name: 'Deoxys',
-  dex: 135,
+  dex: 202,
   type: ['Psychic'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/386.png'
 },
@@ -870,12 +1272,20 @@ function showCards() {
 function editCardContent(card, pokemon) {
   card.style.display = "block";
 
+  const cardNumber = card.querySelector("h3");
+  cardNumber.textContent = "#" + pokemon.dex;
+
   const cardHeader = card.querySelector("h2");
-  cardHeader.textContent = "#" +  pokemon.dex + " " + pokemon.name;
+  cardHeader.textContent = pokemon.name;
 
   const cardImage = card.querySelector("img");
   cardImage.src = pokemon.image;
   cardImage.alt = pokemon.name + " Image";
+
+  cardImage.style.cursor = "pointer";
+  cardImage.addEventListener("click", e => 
+    addToTeam(pokemon)
+  );
 
   const types = card.querySelector("p");
   types.textContent = pokemon.type[0];
@@ -895,7 +1305,6 @@ function searchPokemon() {
     pokemon.type.some(type => type.toLowerCase().includes(input)) ||
     pokemon.dex.toString().includes(input)
   );
-
   displayFilter(filtered);
 }
 
@@ -911,6 +1320,54 @@ function displayFilter(filtered) {
     editCardContent(nextCard, pokemon);
     cardContainer.appendChild(nextCard);
   }
+}
+
+let myTeam = []
+
+function addToTeam(pokemon) {
+  if(myTeam.length >= 6) {
+    myTeam.shift();
+    myTeam.push(pokemon);
+  } else {
+    myTeam.push(pokemon);
+  }
+  console.log("new member:", pokemon.name)
+  showTeam();
+}
+
+function showTeam() {
+  const teamContainer = document.getElementById("team-container");
+  teamContainer.innerHTML = "";
+  const templateMember = document.querySelector(".team-member");
+
+  for(let i = 0; i < myTeam.length; i++) {
+    const pokemon = myTeam[i];
+
+    const nextMember = templateMember.cloneNode(true);
+    editMemberContent(nextMember, pokemon);
+    teamContainer.appendChild(nextMember);
+  }
+}
+
+function editMemberContent(member, pokemon) {
+  member.style.display = "block";
+
+  const memberImage = member.querySelector("img");
+  memberImage.src = pokemon.image;
+  memberImage.alt = pokemon.name + " Image";
+
+  const memberHeader = member.querySelector("h2");
+  memberHeader.textContent = pokemon.name;
+
+  memberImage.style.cursor = "pointer";
+  memberImage.addEventListener("click", e => 
+    removeFromTeam(pokemon)
+  );
+}
+
+function removeFromTeam(pokemon) {
+  myTeam.splice(pokemon, 1);
+  showTeam();
 }
 
 // This calls the addCards() function when the page is first loaded
