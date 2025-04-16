@@ -1366,8 +1366,7 @@ function editMemberContent(member, pokemon) {
 }
 
 function removeFromTeam(pokemon) {
-  const index = myTeam.indexOf(pokemon);
-  myTeam.splice(index, 1);
+  myTeam.splice(myTeam.indexOf(pokemon), 1);
   showTeam();
 }
 
