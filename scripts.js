@@ -871,7 +871,7 @@ const pokedex = [
 {
   name: 'Wigglytuff',
   dex: 139,
-  type: ['Electric'],
+  type: ['Normal', 'Fairy'],
   image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png'
 },
 {
